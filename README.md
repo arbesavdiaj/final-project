@@ -75,6 +75,10 @@ Before you begin, ensure you have the following installed on your local machine:
 
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please submit them via GitHub issues or create a pull request.
 
+## Authors
+
+- [Arbes Avdiaj](https://github.com/arbesavdiaj)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
