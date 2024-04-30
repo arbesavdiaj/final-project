@@ -1,7 +1,7 @@
 -- creating the database and granting all the permissions
 
 CREATE DATABASE IF NOT EXISTS LakeSite;
-CREATE USER IF NOT EXISTS 'arbes'@'localhost' IDENTIFIED BY 'arbes123';
+CREATE USER IF NOT EXISTS 'arbes'@'localhost' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON LakeSite.* TO 'arbes'@'localhost';
 FLUSH PRIVILEGES;
 
