@@ -1,7 +1,7 @@
 -- creating the database and granting all the permissions
 
 CREATE DATABASE IF NOT EXISTS LakeSite;
-CREATE USER IF NOT EXISTS 'arbes'@'localhost' IDENTIFIED BY '1234';
+CREATE USER IF NOT EXISTS 'arbes'@'localhost' IDENTIFIED BY 'arbes123';
 GRANT ALL PRIVILEGES ON LakeSite.* TO 'arbes'@'localhost';
 FLUSH PRIVILEGES;
 
@@ -22,6 +22,7 @@ CREATE TABLE lakes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     description TEXT,
+    image_url VARCHAR(100) NOT NULL,
     location VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
