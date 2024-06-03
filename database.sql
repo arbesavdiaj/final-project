@@ -6,7 +6,7 @@ GRANT ALL PRIVILEGES ON LakeSite.* TO 'arbes'@'localhost';
 FLUSH PRIVILEGES;
 
 -- change the database to use the one we created
-USE LakeSite; 
+USE LakeSite;
 
 --creating tables for users,
 CREATE TABLE users (
