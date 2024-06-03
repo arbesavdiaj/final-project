@@ -39,6 +39,7 @@ const Hero = () => {
     lake_id: 0,
     date: "",
   });
+
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSearch = (e) => {
